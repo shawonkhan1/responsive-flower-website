@@ -50,28 +50,26 @@ responsive banner strt */
     .container{
         flex-direction: column;
         height: 1880px;
-        width: 650px;
+        width: 1200px;
     }
     .sub-title img{
-        padding-left: 100px;
+        padding-left: 200px;
         padding-top: 10px;
     }
     .banner-p{
         padding-right: 100px;
-        padding-left: 100px;
+        padding-left: 200px;
         width: 500px;
     }
     .banner-h{
-        padding-left: 100px;
+        padding-left: 200px;
         width: 500px;
     }
 
     .banner-btn{
         margin-bottom: 110px;
-        margin-left: 100px;
+        margin-left: 200px;
     }
-    .header{
-        width: 600px;
-    }
+   
 }
 /* responsive banner end */
