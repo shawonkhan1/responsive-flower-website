@@ -73,6 +73,7 @@ responsive banner strt */
     width: 400px;
     padding-left: 0px;
     padding-right: 0px;
+    max-width: 400px;
 
    }
 }
