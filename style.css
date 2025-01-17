@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    width: 1920px;
+ 
     height: 850px;
     background-color: rgba(229, 84, 115, 0.1);
     gap: 97px;
@@ -20,6 +20,7 @@
     color: hsla(0,0%,15%,1);
     padding-left: 240px;
     padding-top: 50px;
+    
 }
 
 .banner-p{
@@ -44,32 +45,35 @@
 }
 
 
+
 /* 
 responsive banner strt */
-@media screen and (max-width:476px) {
+@media screen and (max-width:576px) {
     .container{
         flex-direction: column;
-        height: 1880px;
-        width: 1200px;
-    }
-    .sub-title img{
-        padding-left: 200px;
-        padding-top: 10px;
-    }
-    .banner-p{
-        padding-right: 100px;
-        padding-left: 200px;
-        width: 500px;
-    }
-    .banner-h{
-        padding-left: 200px;
-        width: 500px;
+        height: 1570px;
+       
+      
     }
 
-    .banner-btn{
-        margin-bottom: 110px;
-        margin-left: 200px;
+    .banner-h{
+        padding-left: 50px;
+        font-weight: 500;
+        font-size: 40px;
     }
-   
+    .banner-p{
+        padding-left: 50px;
+        width: 200px;
+    }
+    .banner-btn{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+   .sub-title img{
+    width: 400px;
+    padding-left: 3rem;
+    padding-right: 0px;
+
+   }
 }
 /* responsive banner end */
