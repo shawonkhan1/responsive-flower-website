@@ -4,6 +4,7 @@
     height: 850px;
     background-color: rgba(229, 84, 115, 0.1);
     gap: 97px;
+    margin-bottom: 178px;
     
 }
 
@@ -44,37 +45,45 @@
 
 }
 
+.none{
+    display: none;
+}
+/*strt Our Featured Flowers */
+
+
+
+/* end Our Featured Flowers */
+
+
+
+
 
 
 /* 
 responsive banner strt */
 @media screen and (max-width:576px) {
-    .container{
-        flex-direction: column;
-        height: 1570px;
-       
-      
-    }
-
-    .banner-h{
-        padding-left: 50px;
-        font-weight: 500;
-        font-size: 40px;
-    }
-    .banner-p{
-        padding-left: 50px;
-        width: 200px;
-    }
-    .banner-btn{
-        margin-left: 50px;
-        margin-bottom: 20px;
-    }
+   .container{
+  flex-direction: column;
+  height: 1500px;
+  margin-bottom: 20px;
+   }
+   .banner-h{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 50px;
+   }
+   .banner-p{
+    padding-left: 50px;
+   }
+   .banner-btn{
+    margin-left: 50px;
+    margin-bottom: 20px;
+   }
    .sub-title img{
-    width: 400px;
-    padding-left: 0px;
+    width: 300px;
     padding-right: 0px;
-    max-width: 400px;
-
+    padding-left: 30px;
    }
 }
+     
 /* responsive banner end */
